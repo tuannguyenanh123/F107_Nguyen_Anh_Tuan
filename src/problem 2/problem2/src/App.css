@@ -1,0 +1,17 @@
+body{
+  background-color: #161616;
+  color: #ddd;
+  padding: 50px;
+}
+h1{
+  color: #eef;
+  text-align: center;
+}
+
+.wrapper {
+  width: fit-content;
+  box-shadow: rgba(252, 114, 255, 0.08) 0px 0px 10px 0px, rgba(252, 114, 255, 0.18) 0px 40px 120px 0px;
+  margin: 0 auto;
+  padding: 12px 24px 8px;
+  border-radius: 24px;
+}

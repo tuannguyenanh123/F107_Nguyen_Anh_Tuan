@@ -1,0 +1,41 @@
+.group{
+    background: rgb(27, 27, 27);
+    width: 300px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 220px 80px;
+    border-radius: 15px;
+    border: transparent 1px solid;
+}
+.group-active {
+    border: #fff 1px solid;
+}
+.group-active-hover {
+    border: #424242 1px solid;
+}
+input,select{
+    background: none;
+    border: 0;
+    color:#fff;
+}
+input{
+    padding-left: 10px;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+select{
+    padding: 15px 10px;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.title {
+    color: #fff;
+    font-size: 16px;
+    margin: 6px 6px 16px;
+    font-weight: 500;
+}
